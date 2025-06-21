@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portofolio | Fathin Y</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    </head>
+    <body>
+        <!-- CUSTOM CURSOR -->
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <div class="container nav-container">
+                <a href="#" class="logo">Porto<span>folio</span></a>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#hero" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Keahlian</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#tech">Teknologi</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Kontak</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-btn" id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobile-menu">
+            <button class="close-menu" id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="mobile-links">
+                <li>
+                    <a href="#hero" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#about">Tentang</a>
+                </li>
+                <li>
+                    <a href="#skills">Keahlian</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portofolio</a>
+                </li>
+                <li>
+                    <a href="#tech">Teknologi</a>
+                </li>
+                <li>
+                    <a href="#contact">Kontak</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- HERO SECTION -->
+        <section id="hero">
+            <div id="particles-js"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h3 class="hero-subtitle">Mahasiswa Informatika</h3>
+                    <h1 class="hero-title">Halo, Saya
+                        <span style="color: var(--accent);">Fathin Y</span></h1>
+                    <p class="hero-desc">
+                        Mahasiswa tingkat 1 yang bersemangat tentang perkembangan teknologi terkini.
+                        Saya selalu mencari peluang untuk belajar dan mengembangkan keterampilan baru.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn">Lihat Portofolio</a>
+                        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="profile-img">
+                    <img
+                        src="assets\img1.jpeg"
+                        alt="Profil Fathin Y">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Tentang Saya</h2>
+                        <p>
+                            Saya adalah mahasiswa semester pertama jurusan Teknik Inforamtika di Politeknik
+                            Negeri Bandung. Tertarik dengan dunia teknologi, khususnya pengembangan web,
+                            aplikasi mobile, dan kecerdasan buatan.
+                        </p>
+                        <p>
+                            Saat ini, saya sedang mempelajari berbagai bahasa pemrograman untuk membangun
+                            solusi teknologi yang inovatif dan bermanfaat bagi masyarakat.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h3>Semester 2</h3>
+                                <p>Tahun Akademik</p>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-project-diagram"></i>
+                                <h3>3+</h3>
+                                <p>Proyek Selesai</p>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-clock"></i>
+                                <h3>100+</h3>
+                                <p>Jam Belajar</p>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-code"></i>
+                                <h3>5+</h3>
+                                <p>Teknologi Dikuasai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Tentang Saya"
+                            style="width: 100%; border-radius: 10px; box-shadow: var(--shadow);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <div class="container">
+                <h2>Keahlian Teknis</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>
+                            <i class="fas fa-code"></i>
+                            Pengembangan Web</h3>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML & CSS</span>
+                                <span>55%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="55"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>JavaScript</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>
+                            <i class="fas fa-laptop-code"></i>
+                            Lainnya</h3>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Kotlin</span>
+                                <span>10%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="10"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Git & GitHub</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="portfolio-header">
+                    <h2>Proyek Terbaru</h2>
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all">Semua</button>
+                        <button class="filter-btn" data-filter="web">Website</button>
+                        <!--button class="filter-btn" data-filter="design">Design</button-->
+                        <!-- siapa tau kepake -->
+                        <!--button class="filter-btn" data-filter="app">Aplikasi</button-->
+                    </div>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item visible" data-category="web">
+                        <div class="portfolio-img">
+                            <img
+                                src="assets/ngodong.jpg"
+                                alt="Proyek Website">
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Website</span>
+                            <h3>Website Tracker Event Game</h3>
+                            <p>Website untuk melihat event game PGR yang sedang dan sudah berjalan.</p>
+                            <a
+                                href="https://pgrnow.github.io/"
+                                class="btn btn-outline"
+                                style="margin-top: 15px;">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item visible" data-category="web">
+                        <div class="portfolio-img">
+                            <img
+                                src="assets/calculator.jpg"
+                                alt="Proyek Website">
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Website</span>
+                            <h3>Website Kalkulator Sederhana</h3>
+                            <p>Website kalkulator untuk menghitung CC kendaraan.</p>
+                            <a
+                                href="https://hitungcc.github.io/"
+                                class="btn btn-outline"
+                                style="margin-top: 15px;">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECH SECTION -->
+        <section id="tech">
+            <div class="container">
+                <h2>Teknologi Favorit</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fa-brands fa-dart-lang"></i>
+                        <h3>Dart</h3>
+                        <p>Bahasa pemrograman modern untuk pengembangan aplikasi lintas
+                            platform.</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fa-brands fa-linux"></i>
+                        <h3>Linux</h3>
+                        <p>sistem operasi komputer yang bersifat open-source dan free.</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Bahasa pemrograman serbaguna untuk pengembangan web, analisis data, dan AI.</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fa-brands fa-flutter"></i>
+                        <h3>Flutter</h3>
+                        <p>Framework open-source yang digunakan untuk membangun aplikasi lintas platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Mari Berkolaborasi!</h3>
+                        <p>
+                            Jika Anda tertarik untuk berdiskusi tentang teknologi, proyek, atau peluang
+                            kolaborasi, jangan ragu untuk menghubungi saya.
+                        </p>
+                        <!--div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>ahmad.fauzi@example.com</p>
+                            </div>
+                        </div-->
+                        <!--div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telepon</h4>
+                                <p>+62 xxx xxxx xxxx</p>
+                            </div>
+                        </div-->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Lokasi</h4>
+                                <p>Bandung, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" placeholder="Nama Lengkap" id="name" required="required">
+                                <div class="form-error" id="name-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" id="email" required="required">
+                                <div class="form-error" id="email-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Subjek" id="subject" required="required">
+                                <div class="form-error" id="subject-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Pesan Anda" id="message" required="required"></textarea>
+                                <div class="form-error" id="message-error"></div>
+                            </div>
+                            <button type="submit" class="btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://github.com/vermilion10" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!--a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i-->
+                    </a>
+                    <a href="https://instagram.com/fathysrn" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!--a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i-->
+                    </a>
+                    <a href="https://facebook.com/alfath0000" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="copyright">© 2025 vermilion10</p>
+            </div>
+        </footer>
+
+        <!-- BACK TO TOP BUTTON -->
+        <div class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="script.js"></script>
+    </body>
+</html>
