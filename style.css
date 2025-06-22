@@ -1,4 +1,3 @@
-
 /* VARIABEL DAN DARK MODE DEFAULT */
 :root {
     --primary-bg: #0a0a14;
@@ -31,7 +30,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -78,7 +77,7 @@ h2 {
 }
 
 h2:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -15px;
     left: 0;
@@ -146,7 +145,10 @@ a:hover {
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 9999;
-    transition: transform 0.2s, width 0.2s, height 0.2s;
+    transition:
+        transform 0.2s,
+        width 0.2s,
+        height 0.2s;
     mix-blend-mode: difference;
 }
 
@@ -159,7 +161,9 @@ a:hover {
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 9998;
-    transition: width 0.3s, height 0.3s;
+    transition:
+        width 0.3s,
+        height 0.3s;
     mix-blend-mode: difference;
 }
 
@@ -224,7 +228,7 @@ nav.scrolled {
 }
 
 .nav-links a:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -546,6 +550,14 @@ nav.scrolled {
 
 .tech-card h3 {
     margin-bottom: 15px;
+}
+
+.tech-card .nixos-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    margin: 0 auto 20px;
+    color: var(--accent);
 }
 
 /* CONTACT SECTION */
