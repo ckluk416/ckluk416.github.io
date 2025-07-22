@@ -560,6 +560,22 @@ nav.scrolled {
     color: var(--accent);
 }
 
+.tech-card .kotlin-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    margin: 0 auto 20px;
+    color: var(--accent);
+}
+
+.tech-card .jupyter-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    margin: 0 auto 20px;
+    color: var(--accent);
+}
+
 /* CONTACT SECTION */
 #contact {
     background: var(--secondary-bg);
